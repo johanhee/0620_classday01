@@ -1,4 +1,4 @@
-@charset "UTF-8";
+charset "UTF-8";
 /* CSS Document */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -10,7 +10,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure, 
-footer, header, menu, nav, section, summary,
+footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
     padding:0;
@@ -20,8 +20,6 @@ time, mark, audio, video {
     vertical-align:baseline;
     background:transparent;
     font-weight:normal;
-    font-style:normal;
-    text-decoration:none;
 }
 
 body {
@@ -34,7 +32,7 @@ footer,header,hgroup,menu,nav,section {
 }
 
 ul,ol,li {
-list-style:none;
+    list-style:none;
 }
 
 blockquote, q {
@@ -51,6 +49,8 @@ a {text-decoration:none;
     margin:0;
     padding:0;
     font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
 /* change colours to suit your needs */
@@ -82,11 +82,6 @@ table {
     border-spacing:0;
 }
 
-input, select {
-    vertical-align:middle;
-}
-
-
 /* change border colour to suit your needs */
 hr {
     display:block;
@@ -95,4 +90,8 @@ hr {
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
+}
+
+input, select {
+    vertical-align:middle;
 }
